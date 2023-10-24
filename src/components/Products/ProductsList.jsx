@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
 
-import "./ProductsList.css";
+import "./productsList.css";
 import ProductCard from "./ProductCard";
 import useData from "../../hooks/useData";
 import ProductCardSkeleton from "./ProductCardSkeleton";
 import { useSearchParams } from "react-router-dom";
-import Pagination from "../Common/Pagination";
 
 const ProductsList = () => {
   const [page, setPage] = useState(1);
