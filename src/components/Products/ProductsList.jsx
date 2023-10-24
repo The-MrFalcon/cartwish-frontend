@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import "./productsList.css";
+import "./ProductsList.css";
 import ProductCard from "./ProductCard";
 import useData from "../../hooks/useData";
 import ProductCardSkeleton from "./ProductCardSkeleton";
